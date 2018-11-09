@@ -1,0 +1,539 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+< !-- body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*** FIX STYLING ***/
+
+#courseMenuPalette div.navPaletteContent ul li a span {
+    color: rgb(0, 51, 102);
+}
+
+div.path {
+    margin-bottom: -20px;
+}
+
+div.treeContainer ul.tree li a,
+ul.tree li a {
+    color: rgb(18, 143, 168);
+}
+
+.navPaletteContent ul li h4 a {
+    color: rgb(18, 143, 168);
+}
+
+.vtbegenerated li {
+    list-style-position: outside;
+}
+
+
+/* Navy Box*/
+
+#navybox {
+    width: 200px;
+    height: 175px;
+    top: 80px;
+    right: 40px;
+    position: absolute;
+    display: table;
+    border-radius: 10px;
+    text-shadow: -.01em .2em #070707;
+    background-color: #1a157d;
+    background-image: linear-gradient(0deg, #1a157d 40%, #141067 100%);
+    opacity: 0.94;
+    -webkit-box-shadow: 3px 4px 10px rgba(50, 50, 50, 0.68);
+    -moz-box-shadow: 3px 4px 10px rgba(50, 50, 50, 0.68);
+    box-shadow: 3px 4px 10px rgba(50, 50, 50, 0.68);
+}
+
+#navybox p {
+    font-family: "Roboto", "Trebuchet MS", "Open Sans", "Lucida Sans", "Helvetica Neue", "Arial", sans-serif;
+    font-size: 2.3em;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 1.4em;
+    margin: 10px 10px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 0 0 0px;
+    letter-spacing: 0.06em;
+}
+
+#navybox p a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-style: normal;
+}
+
+#navybox p a:hover {
+    color: #FFFFFF;
+    text-shadow: #d3d3d3 0.1em 0.1em 0.2em;
+}
+
+/* link styling */
+
+/* banner */
+
+#faa-banner {
+    margin: 0px;
+    clear: both;
+    overflow: hidden;
+    min-width: 750px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: #fff;
+    -webkit-box-shadow: 3px 4px 10px rgba(50, 50, 50, 0.68);
+    -moz-box-shadow: 3px 4px 10px rgba(50, 50, 50, 0.68);
+    box-shadow: 3px 4px 10px rgba(50, 50, 50, 0.68);
+}
+
+#faa-banner p.links {
+    font-family: "Helvetica", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+    font-size: 1.15em;
+    font-weight: 500;
+    color: #FFF;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 28px;
+    padding-top: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.13em;
+}
+
+#faa-banner p.links a {
+    color: #fff;
+    text-decoration: none;
+    font-style: normal;
+    text-shadow: -.01em .04em #ecb18b;
+}
+
+#faa-banner p.links a:hover {
+    color: #333399;
+    font-weight: 600;
+    text-shadow: #D3D3D3 0.2em 0.2em 0.2em;
+}
+
+#faa-banner img.imark {
+    float: left;
+    margin: 9px 4px;
+    padding: 0px;
+    padding-right: 8px;
+}
+
+#faa-banner img {
+    float: left;
+    margin: 0 0 0 0;
+    padding: 0;
+    border: hidden;
+}
+
+#faa-banner img.right {
+    float: right;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    position: relative;
+    /* This fixes the IE7 overflow hidden bug and stops the layout jumping out of place */
+    clear: both;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* This chops off any overhanging divs */
+    min-width: 750px;
+}
+
+.banner-links {
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #9599E2 0%, #8BC6EC 100%);
+    text-shadow: -.01em .04em #ecb18b;
+    height: 35px;
+    padding-left: 7px;
+}
+
+.banner-main {
+    background-color: #000;
+    height: 250px
+}
+
+
+/* This is the background that the banner image sits on top of */
+
+.banner-main-white {
+    background-color: #fff;
+    border-bottom: 1px solid #CCC;
+    height: 250px;
+}
+
+.banner-main-white-noline {
+    background-color: #fff;
+    height: 250px
+}
+
+
+/* This is the thin bar that appears just below the banner image */
+
+.banner-white {
+    background-color: #fff;
+    height: 25px
+}
+
+.banner-grey {
+    border-width: 15px;
+    border-color: #646d76;
+    border-style: solid hidden hidden hidden;
+    height: 10px
+}
+
+
+/* Overview (after banner)*/
+
+#faa-overview {
+    width: auto;
+    border-radius: 2px;
+    border-left: 10px solid #9599e2;
+    border-top: hidden;
+    border-bottom: transparent;
+    border-right: hidden;
+    margin: 0 auto auto;
+    position: relative;
+    /* This fixes the IE7 overflow hidden bug and stops the layout jumping out of place */
+    clear: both;
+    overflow: hidden;
+    /* This chops off any overhanging divs */
+}
+
+#faa-overview h3.title {
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans", Verdana, sans-serif;
+    font-size: 1.6em;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    line-height: 1.5em;
+    text-align: left;
+    color: #000;
+    margin-left: 0;
+    margin-bottom: 5px;
+}
+
+#faa-overview h3.subtitle {
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans", Verdana, sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    line-height: 1em;
+    text-align: left;
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#faa-overview h3 {
+    font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    line-height: 1.3em;
+    text-align: left;
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#faa-overview h4 {
+    font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    letter-spacing: 0.15em;
+    line-height: 1.3em;
+    text-align: left;
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#faa-overview p {
+    font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+    font-size: 1em;
+    color: #333;
+    line-height: 1.3em;
+    margin-left: 0;
+    text-align: justify;
+    padding: 0 0 0.6125em 0;
+}
+
+#faa-overview p.credit {
+    font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+    font-size: 0.8em;
+    color: #333;
+    line-height: 1.3em;
+    margin-left: 0;
+    text-align: justify;
+    padding: 0 0 0.6125em 0;
+}
+
+#faa-overview li {
+    font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+    font-size: 1em;
+    color: #000;
+    line-height: 1.3em;
+    max-width: 95%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#faa-overview li li {
+    font-size: 1em;
+    margin-left: -35px;
+}
+
+#faa-overview td {
+    font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+    font-size: 1em;
+    color: #333;
+    line-height: 1.3em;
+    margin-left: 0;
+    text-align: justify;
+    padding: 0 0 0.6125em 0;
+}
+
+/*Fixes font-size issues with Compass 2g*/
+
+#faa-overview ul {
+    list-style-position: outside;
+}
+
+#faa-overview ul,
+ol {
+    margin: 0 0 1.625em 0;
+}
+
+#faa-overview li ul,
+li ol {
+    margin: 0 1.625em;
+}
+
+
+#faa-overview .colmain {
+    margin: 0px 15px;
+    padding: 0 0 10px 0;
+}
+
+#faa-overview img {
+    float: left;
+    margin: 5px 10px 5px 5px;
+    padding: 0;
+}
+
+/* Footer */
+
+#faa-footer {
+    margin: 0px;
+    clear: both;
+    overflow: hidden;
+    min-width: 750px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 22px 50px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 22px 50px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 22px 50px 0px rgba(0, 0, 0, 0.15);
+}
+
+#faa-footer p.links {
+    font-family: "Arial", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+    font-size: 1.05em;
+    color: #FFF;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 28px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+#faa-footer p.links a {
+    color: #fff;
+    text-decoration: none;
+    font-style: normal;
+}
+
+#faa-footer p.links a:hover {
+    color: #333399;
+}
+
+#faa-footer img.imark {
+    float: left;
+    margin: 10px 8px;
+    padding: 0px;
+    padding-right: 8px;
+}
+
+.footer-links {
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    text-shadow: -.01em .04em #ecb18b;
+    height: 40px
+}
+
+
+/* Credit */
+
+p.credit {
+    font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Trebuchet MS", sans-serif;
+    font-size: 0.8em;
+    color: #333;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+    margin-left: 0;
+    text-align: justify;
+    padding: 0 0 0.6125em 0;
+    border-top: 2px solid #9599e2;
+}
+
+p.credit-links a {
+    color: #333399;
+    font-weight: 600;
+    text-shadow: rgba(0, 0, 0, 0.1) 0.2em 0.2em 0.2em;
+}
+
+p.credit-links a:hover {
+    color: #fff;
+    letter-spacing: 4px;
+    -webkit-box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.11);
+    -moz-box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.11);
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.11);
+    padding: 10px;
+    border-radius: 100px;
+    border-bottom: 2px solid;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    opacity: 0.8;
+    text-shadow: -.01em .04em #ecb18b;
+    height: 35px;
+}
+
+/* Link styling in regular paragraphs */
+
+p.style-links a {
+    text-decoration: none;
+    color: #232323;
+    background-image: linear-gradient(120deg, #9599e2 0%, #8BC6EC 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+
+    &:hover {
+        background-size: 100% 88%;
+    }
+}
+
+p.style-links a:hover {
+    text-decoration: none;
+    color: #000;
+    background-image: linear-gradient(120deg, #9599e2 0%, #8BC6EC 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 1.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+
+    &:hover {
+        background-size: 100% 88%;
+    }
+}
+
+/* Link Styling in regular lists */
+
+li.style-links a {
+    text-decoration: none;
+    color: #232323;
+    background-image: linear-gradient(120deg, #9599e2 0%, #8BC6EC 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+
+    &:hover {
+        background-size: 100% 88%;
+    }
+}
+
+li.style-links a:hover {
+    text-decoration: none;
+    color: #000;
+    background-image: linear-gradient(120deg, #9599e2 0%, #8BC6EC 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 1.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+
+    &:hover {
+        background-size: 100% 88%;
+    }
+
+/* Link styling in table cells in headings */
+
+td.style-links a {
+    text-decoration: none;
+    color: #232323;
+    background-image: linear-gradient(120deg, #9599e2 0%, #8BC6EC 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+
+    &:hover {
+        background-size: 100% 88%;
+        }
+    }
+
+td.style-links a:hover {
+    text-decoration: none;
+    color: #000;
+    background-image: linear-gradient(120deg, #9599e2 0%, #8BC6EC 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 1.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+
+    &:hover {
+        background-size: 100% 88%;
+        }
+    }
+
+    /* Link styling in h3 headings */
+
+    h3.style-links a {
+        text-decoration: none;
+        color: #232323;
+        background-image: linear-gradient(120deg, #9599e2 0%, #8BC6EC 100%);
+        background-repeat: no-repeat;
+        background-size: 100% 0.2em;
+        background-position: 0 88%;
+        transition: background-size 0.25s ease-in;
+
+        &:hover {
+            background-size: 100% 88%;
+        }
+    }
+
+    h3.style-links a:hover {
+        text-decoration: none;
+        color: #000;
+        background-image: linear-gradient(120deg, #9599e2 0%, #8BC6EC 100%);
+        background-repeat: no-repeat;
+        background-size: 100% 1.2em;
+        background-position: 0 88%;
+        transition: background-size 0.25s ease-in;
+
+        &:hover {
+            background-size: 100% 88%;
+        }
+    }
